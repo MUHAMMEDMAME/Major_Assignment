@@ -1,21 +1,24 @@
-# major_assignment
-## Running Multiple C++ Programs on macOS
+# Running C++ Code on Mac and Windows
 
-This repository contains multiple C++ programs that can be executed on macOS.
+This README file provides instructions on how to compile and run C++ code on both Mac and Windows operating systems.
 
-### Prerequisites
+## Prerequisites
 
-Before running the code, ensure you have the following installed on your macOS system:
+- **Mac**:
+  - Xcode Command Line Tools (for compiling C++ code)
+  - Terminal (for running commands)
 
-1- Xcode Command Line Tools: You can install them by running the following command in the terminal:
-  ```bash
-  xcode-select --install
+- **Windows**:
+  - MinGW or Visual Studio (for compiling C++ code)
+  - Command Prompt or PowerShell (for running commands)
 
-2- Clone the repository:
+## Steps
+
+1- Clone the repository:
 git clone https://github.com/MUHAMMEDMAME/major_assignment.git
 cd major_assignment
 
-3. **Compile the Code**:
+2. **Compile the Code**:
    - **Mac**:
      ```
      g++ -std=c++11 -o problem1 problem1.cpp
@@ -29,7 +32,7 @@ cd major_assignment
      cl problem1.cpp
      ```
 
-4. **Run the Executable**:
+3. **Run the Executable**:
    - **Mac**:
      ```
      ./problem1
