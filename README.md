@@ -15,16 +15,32 @@ Before running the code, ensure you have the following installed on your macOS s
 git clone https://github.com/MUHAMMEDMAME/major_assignment.git
 cd major_assignment
 
+3. **Compile the Code**:
+   - **Mac**:
+     ```
+     g++ -o problem1 problem1.cpp
+     ```
+   - **Windows** (using MinGW):
+     ```
+     g++ -o problem1.exe problem1.cpp
+     ```
+   - **Windows** (using Visual Studio):
+     ```
+     cl problem1.cpp
+     ```
 
- 3- g++ -std=c++11 -o problem1 problem1.cpp
-  ./problem1
-    to see the results write this commands in your terminal
-             .
-             .
-             .
+4. **Run the Executable**:
+   - **Mac**:
+     ```
+     ./problem1
+     ```
+   - **Windows**:
+     ```
+     problem1.exe
+     ```
 
-  g++ -std=c++11 -o problem12 problem12.cpp
-  ./problem12
+
+
 
 
   
