@@ -18,11 +18,11 @@ cd major_assignment
 3. **Compile the Code**:
    - **Mac**:
      ```
-     g++ -o problem1 problem1.cpp
+     g++ -std=c++11 -o problem1 problem1.cpp
      ```
    - **Windows** (using MinGW):
      ```
-     g++ -o problem1.exe problem1.cpp
+     g++ -std=c++11  -o problem1.exe problem1.cpp
      ```
    - **Windows** (using Visual Studio):
      ```
