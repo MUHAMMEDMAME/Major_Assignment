@@ -25,3 +25,9 @@ int numberSequence(int m, int n) {
 
     return total_sequences;
 }
+
+int main(){
+
+
+    return 0;
+}
