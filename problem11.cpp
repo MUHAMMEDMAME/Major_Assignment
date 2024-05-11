@@ -38,6 +38,11 @@ int findPages(int N, vector<int> A, int M) {
         } else {
             start = mid + 1;
         }
+
+        int main(){
+
+            return 0;
+        }
     }
     return result;
 }
