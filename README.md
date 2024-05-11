@@ -13,6 +13,8 @@ Before running the code, ensure you have the following installed on your macOS s
 
 
 3-2. Clone the repository:
+git clone https://github.com/MUHAMMEDMAME/major_assignment.git
+cd major_assignment
 
 
  3- g++ -std=c++11 -o problem1 problem1.cpp
